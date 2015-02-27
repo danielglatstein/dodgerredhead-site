@@ -1,0 +1,225 @@
+/* web fonts */
+@import url(http://fonts.googleapis.com/css?family=Elsie+Swash+Caps);
+@import url(http://fonts.googleapis.com/css?family=Clicker+Script);
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+/* This is a comment. 
+Let's learn some CSS! */
+
+/* CSS Syntax:
+
+selector {
+	property: value;
+	property: value;
+}
+
+*/
+
+/* Type Selector */
+.col2 figure {
+	max-width: 50%;
+	float: left;
+}
+
+.halfitem {
+	max-width: 100%;
+	float: left;
+}
+
+.vertical {
+	max-width: 50%;
+	margin: 0;
+	display: block;
+	float: left;
+}
+
+.vertical img {
+	width: 100%;
+}
+
+.flipping {
+	width: 50%;
+	display: block;
+	float: left;
+}
+
+h1{
+	font-size: 1.75em;
+	padding: 0 1rem 0 1rem;
+	letter-spacing: -1px; 
+	line-height: 1.2; 
+	font-family: Karla, Helvetica, sans-serif; 
+	color: #fff; 
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+}
+
+h3{
+	font-size: 80%;
+	text-transform: uppercase;
+	padding: 1rem 0 1rem 1rem;
+	color: rgba(0, 0, 0, 0.3); 
+}
+ img {
+ 	max-width: 100%; 
+ 	display: block; 
+ }
+
+  figure figcaption {
+    max-width: 30em;
+    font-family: Karla, Helvetica, sans-serif;
+    font-size: 0.9rem; }
+
+header {
+	background: #8c96a0;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0; 
+	box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+body {margin: 0;
+	padding: 0;
+	border: 0;
+	 }
+
+p { /* selects all <p> */
+	font-size: 16px; /* px, pt, 100%, 1em */
+	line-height: 1.5em;
+}
+
+
+/* Class Selector (apply to as many elements as you like) */
+.col1{
+	float: left;
+	width: 50%;
+	margin: 0 0 0 ;
+}
+
+.introtxt {
+	background-color: #00deb7; 
+	padding: 1rem; 
+	padding-bottom: 10%;
+
+}
+
+.col2{
+	float: left; 
+	width: 50%;
+	
+}
+
+
+.wrapper {
+	width: 960px; 
+	margin: 0 auto; 
+}
+
+/* ID Selector (apply to only one unique element per page) */
+
+/* Descendent Selector */
+
+h1#logo { /* selects only <h1> inside the element with id="logo" */
+	font-family: 'Pacifico';
+	padding: 25px 55px 0 55px;
+	margin: 0;
+	padding-top: 20px;
+	padding-bottom: 20px; 
+	display: inline-block;
+	background: #000; 
+}
+
+h1 span {
+	color: #000;
+}
+
+#nav_bar { 
+	display: inline-block;
+	max-width: 30rem;
+	width: 100%;
+	
+}
+
+
+
+
+#nav_bar ul li { 
+	font-family: Karla, Helvetica, sans-serif;
+	font-size: 0.9rem;  
+	display: inline-block;
+	margin: 0; 
+	border: none;
+	text-align: left;
+	padding: 0 25px; 
+
+}
+
+#social {
+	float:right;
+	display: inline-block;
+	padding: 13px 4px 0 2px; 
+	height: 48px;
+	z-index: 1;
+
+
+}
+
+a.twit, a.insta, a.facebook, a.plus {
+	float: right; 
+	white-space: nowrap;
+	width: 48px;
+	height: 48px;
+	margin:5px;
+	overflow: hidden; 
+	background-image: url(../images/media.png);
+	margin-right: auto;
+}
+
+
+a.facebook {background-position: -53px 0px;}
+a.facebook:hover {background-position: 0px 0px}
+a.facebook:active {background-position: -53px 0px;}
+
+a.twit {background-position: -371px 0px}
+a.twit:hover {background-position: -318px 0px}
+a.twit:active {background-position: -371px 0px}
+
+a.plus {background-position: -106px 0px}
+a.plus:hover {background-position: -265px 0px}
+a.plus:active {background-position: -106px 0px}
+
+a.insta {background-position: -212px 0px; }
+a.insta:hover {background-position: -159px 0px}
+a.insta:active {background-position: -212px 0px}
+
+
+
+a {
+	text-decoration: none; 
+	font-size: .9em;
+}
+
+a:link {
+    text-decoration: none;
+    color: #fff; 
+}
+
+a:visited {
+    text-decoration: none;
+    color: #fff; 
+}
+
+a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+a:active {
+    text-decoration: underline;
+    color: lime; 
+}
+

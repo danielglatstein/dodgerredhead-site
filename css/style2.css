@@ -1,0 +1,32 @@
+#section-title {
+	width: 100%;
+	padding: 0 20px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	margin: 0 auto 20px;
+	position: relative;
+	height: 30px;
+	display: block;
+}
+
+#section-title a{
+	width: 25%;
+	float: left;
+	display: block;
+	color: #f1f1f6;
+	font-size: 14px;
+	height: 30px;
+	text-align: center;
+	overflow: hidden;
+}
+
+h1#section-title {
+	width: 50%;
+	float: left;
+	display: block;
+	color: #f1f1f6;
+	font-size: 14px;
+	height: 30px;
+	text-align: center;
+	overflow: hidden;
+}

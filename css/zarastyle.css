@@ -1,0 +1,521 @@
+/* web fonts */
+@import url(http://fonts.googleapis.com/css?family=Elsie+Swash+Caps);
+@import url(http://fonts.googleapis.com/css?family=Clicker+Script);
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+
+/* This is a comment. 
+Let's learn some CSS! */
+
+/* CSS Syntax:
+
+selector {
+	property: value;
+	property: value;
+}
+
+*/
+
+/* Type Selector */
+body {
+	background-color: #FF9900
+}
+
+article {
+	display: block; 
+}
+
+a {
+	text-decoration: none;
+	color: #f1f1f6;
+}
+
+.nav_bar a:hover{
+	text-decoration: underline;
+}
+
+.nav_bar a:visited{
+	text-decoration: none;
+	color: #f1f1f6;
+}
+
+.dropdown ul li > ul {
+		display: block;
+}
+
+.dropdown ul li{
+  position: absolute;
+  display: none;
+}
+
+.nav_bar {
+	width: 80%;
+	padding: 0 20px;
+	top: 50px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	position: relative;
+	height: 70px;
+	display: block;
+	margin: 0 auto 30px;
+	z-index:1;
+}
+
+.nav_bar ul {
+	    list-style-type: none;
+	    margin: 0;
+	    padding: 0;
+	    overflow: hidden;
+	    text-align: center;
+}
+
+.nav_bar li {
+    float: left;
+    width: 12.5%;
+}
+
+.nav_bar li:hover{
+    float: left;
+    width: 12.5%;
+}
+
+#container {
+	width: 100%;
+	overflow-y: hidden;
+	margin: 0;
+	padding-top: 100px;
+}
+
+.container-overflow {
+	position: relative;
+	left: 0;
+	transition: all .6s ease-in-out;
+}
+
+.single-element {
+	display: block;
+
+}
+
+.single-element header {
+	padding: 40px 40px 45px;
+	box-sizing: border-box;
+	float: left;
+	display: block;
+	width: 100%;
+	position: relative;
+	display: block;
+}
+
+.clearall {
+	clear: both;
+	margin: 0;
+	padding: 0;
+}
+
+.page-title {
+	position: relative;
+	z-index: 98;
+	top: 0;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+
+}
+
+
+#fixed-top header {
+	z-index: 150; 
+	padding: 40px 0 0 0;
+	height: 60px;
+	margin: 0 0 35px 0;
+	width: 100%;
+	position: fixed;
+	display: block;
+	opacity: .95; 
+	background-color: background: -webkit-linear-gradient(left, #FF9900, #E68A00); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(right, #FF9900, #E68A00); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(right, #FF9900, #E68A00); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(to right, #FF9900, #E68A00); /* Standard syntax */
+	-webkit-font-smoothing: antialiased; 
+}
+
+
+header #logo {
+	color: #f1f1f6; 
+	padding: 0 0 0 62px;
+	position: relative;
+	font-size: 20px;
+	float: left;
+	display: block;
+	line-height: 24px;
+	letter-spacing: 1px;
+	font-family: 'pacifico', brandon-black,Helvetica,Arial,sans-serif;
+}
+
+.title img {
+	height: 50px;
+}
+
+.position_3 .img {
+	width: 100%;
+float: left;
+display: none;
+margin: 0 0 0 0;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+.title {
+	width: 100%;
+	padding: 0 20px;
+	top: 50px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	position: relative;
+	height: 70px;
+	display: block;
+	margin: 0 auto 30px;
+}
+
+.title_video {
+	width: 100%;
+	padding: 0 20px;
+	top: 42px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	position: relative;
+	height: 70px;
+	display: block;
+	margin: 0 auto 30px;
+}
+
+.title a {
+	float: left;
+	width: 37%;
+	display: block;
+	color: #f1f1f6;
+	font-size: 14px;
+	height: 70px;
+	text-align: center;
+	overflow: hidden;
+	line-height: 24px;
+	letter-spacing: 1px;
+	font-family: brandon-black,Helvetica,Arial,sans-serif;
+	text-transform: uppercase;
+}
+
+h4 {
+	font-size: 17px;
+	line-height: 18px;
+	text-transform: uppercase;
+	color: #f1f1f6;
+	opacity: .3
+}
+
+.position_1:hover h4 {
+	opacity:1;
+	transition: opacity .2s ease-out;
+	-moz-transition: opacity .2s ease-out;
+	-webkit-transition: opacity .2s ease-out;
+	-o-transition: opacity .2s ease-out;
+}
+
+.position_2:hover h4 {
+	opacity:1;
+	transition: opacity .2s ease-out;
+	-moz-transition: opacity .2s ease-out;
+	-webkit-transition: opacity .2s ease-out;
+	-o-transition: opacity .2s ease-out;
+}
+
+.position_3:hover h4 {
+	opacity:1;
+	transition: opacity .2s ease-out;
+	-moz-transition: opacity .2s ease-out;
+	-webkit-transition: opacity .2s ease-out;
+	-o-transition: opacity .2s ease-out;
+}
+
+
+.title h1 {
+	width: 26%;
+	float: left;
+	display: block;
+	color: #f1f1f6;
+	font-size: 27px;
+	height: 30px;
+	text-align: center;
+	overflow: hidden;
+	font-family: brandon-black, Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+}
+
+.slideshow {
+	margin: 0 0 100px 0;
+	width: 100%;
+	display: block;
+}
+
+.slideshow .holder {
+	width: 890px;
+	padding: 0;
+	margin: 0 auto;
+}
+
+.holder .title {
+	margin: 0;
+	padding: 10px 40px 0px 40px;
+	font-size: 17px;
+	line-height: 18px;
+	letter-spacing: 2px;
+	font-family: brandon-black,Helvetica,Arial,sans-serif;
+}
+
+
+
+#social {
+	float: right;
+	display: block;
+	height: 48px;
+	z-index: 1;
+	background-repeat: none;
+	margin: -10px 30px 0 0;
+
+
+}
+
+a.twit, a.insta, a.facebook, a.plus {
+	float: right; 
+	white-space: nowrap;
+	width: 48px;
+	height: 48px;
+	margin:5px; 
+	overflow: hidden; 
+	background-image: url(../images/media.png);
+	margin-right: auto;
+}
+
+.video_header {
+	padding: 30px 40px 45px;
+	float:left;	
+	display: block; 
+}
+
+.sec_name {
+	font-size: 100px;
+	line-height: 120px;
+	margin: 90px 0 50px 0;
+	text-align: center;
+	color: #f1f1f6;
+	text-transform: uppercase;
+	font-family: brandon-black,Helvetica,Arial,sans-serif;
+}
+
+.single-element h3 {
+	width: 75%;
+	padding: 0 12.5%;
+	margin: 0 0 30px 0;
+	color: #fff;
+	font-size: 20px;
+	font-family: Courier;
+	text-transform: none;
+	text-align: center;
+	display: block;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+}
+
+.rt_arrow {
+	float: left; 
+}
+
+.lt_arrow {
+	float: right;
+	font-size: 20px;
+}
+
+a._1088 span{
+	opacity: 0;
+	transition: all 0.2s ease-in-out;
+	padding: 0 70px 0 0;
+	text-align: right; 
+    left: 428px;
+    top: 50px;
+    position: absolute;
+
+}
+
+a._1088:hover span{
+	opacity: 1;
+	padding: 0 70px 0 0;
+	
+}
+
+a.Zara_Aina span{
+	opacity: 0;
+	transition: all 0.2s ease-in-out;
+	padding: 0 0 0 70px;
+	top: 60px;
+	left: 130px;
+	float: right;
+	position: absolute;
+	right: 0px;
+	left: 300px;
+	top: 50px;
+}
+
+a.Zara_Aina:hover span{
+	opacity: 1;
+	padding: 0 0 0 70px;
+}
+
+.artwork_line{
+	display: block;
+	width:100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	height: 500px;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+.position_1{
+	width: 33.33%;
+	float: left;
+	position: relative;
+	display: block;
+	cursor: pointer;
+	height: 500px;
+	background-size: 100% auto;
+	background-position: top left;
+	background-repeat: no-repeat;
+	opacity: 1
+}
+
+.position_2{
+	width: 33.33%;
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+	background-size: 100% auto;
+	height:500px;
+	background-position: top left;
+	background-repeat: no-repeat;
+	opacity: 1
+}
+
+
+.position_3{
+	width: 33.33%;
+	float: right;
+	position: relative;
+	display: block;
+	cursor: pointer;
+	height: 500px;
+	background-size: 100% auto;
+	background-position: top left;
+	background-repeat: no-repeat;
+	opacity: 1
+}
+
+.type_category:before {
+	border-bottom: 10px solid #5a54b8;
+	content: "";
+	width: 0;
+	height: 0;
+	position: relative;
+	z-index: 100;
+	display: block;
+	margin: 22px 0 0 0;
+	top: 35px;
+	left:70px;
+	padding: 50% 0 0 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-bottom: 20px solid #FF9900;
+	opacity: 1
+}
+
+.artwork_line .holder{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 285px;
+	padding: 0;
+	float: left;
+	display: block;
+	background-size: 100% auto;
+	background-position: 0;
+	background-repeat: no-repeat;
+}
+
+video {
+	height: 285px;
+}
+
+.holder img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	padding: 0;
+	height: 285px;
+	float: left;
+	display: block;
+	background-size: 100% auto;
+	background-position: top left;
+	background-repeat: no-repeat;
+
+}
+
+.holder video {
+	min-height: 100%;
+	width:100%;
+}
+
+.play{
+	background: url(../images/controller-play.svg) center center no-repeat;
+    margin: 70px 10px 0 0;
+    height: 140px;
+    position: relative;
+    z-index: 1;
+    opacity: 0;
+}
+
+.play:hover {
+	opacity:1;
+	transition: opacity .2s ease-out;
+	-moz-transition: opacity .2s ease-out;
+	-webkit-transition: opacity .2s ease-out;
+	-o-transition: opacity .2s ease-out;
+}
+
+
+a.facebook {background-position: -53px 0px;}
+a.facebook:hover {background-position: 0px 0px}
+a.facebook:active {background-position: -53px 0px;}
+
+a.twit {background-position: -371px 0px}
+a.twit:hover {background-position: -318px 0px}
+a.twit:active {background-position: -371px 0px}
+
+a.plus {background-position: -106px 0px}
+a.plus:hover {background-position: -265px 0px}
+a.plus:active {background-position: -106px 0px}
+
+a.insta {background-position: -212px 0px; }
+a.insta:hover {background-position: -159px 0px}
+a.insta:active {background-position: -212px 0px}
+
+

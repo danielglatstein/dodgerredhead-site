@@ -1,0 +1,250 @@
+
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+
+body {
+	background-image: url(../images/DSC_1120.jpg);
+    background-repeat: repeat-y;
+}
+
+
+header {
+	background: #DADBD7;
+}
+
+
+#header-fix{ 
+	width: 100%; 
+	z-index: 100; 
+}
+
+#social {
+	float: right;
+	display: block;
+	height: 48px;
+	z-index: 1;
+	background-repeat: none;
+	margin: 10px 30px 0 0;
+}
+
+
+.sec_name {
+	margin: 0 auto;
+	font-size: 40px;
+	padding-top: 40px;
+	padding-bottom: 7px;
+	max-width: 600px;
+	text-align: center;
+	font-family: brandon-black,Helvetica,Arial,sans-serif; 
+	font-weight: 400px; 
+}
+
+.sec_desc {
+	width: 75%;
+	padding: 0 12.5%;
+	margin: 0 0 30px 0;
+	color: #4D4D4D;
+	font-size: 1.25em;
+	line-height: 1.24em;
+	font-family: "nyt-franklin",Arial,Helvetica,sans-serif;
+	font-weight: 500;
+	font-family: Courier;
+	text-transform: none;
+	text-align: center;
+	display: block;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	-webkit-font-smoothing: antialiased;
+}
+
+a.twit, a.insta, a.facebook, a.plus {
+	float: right; 
+	white-space: nowrap;
+	width: 48px;
+	height: 48px;
+	margin:5px; 
+	overflow: hidden; 
+	background-image: url(../images/media.png);
+	margin-right: auto;
+}
+
+h1#logo { /* selects only <h1> inside the element with id="logo" */
+	font-family: 'Pacifico';
+	padding: 25px 55px 0 55px;
+	margin: 0;
+	padding-top: 20px;
+	padding-bottom: 20px; 
+	display: inline-block;
+	background: #000; 
+}
+
+h1 {
+	color: #000;
+	font-size: 1.75em;
+	padding: 0 1rem 0 1rem;
+	letter-spacing: -1px; 
+	line-height: 1.2; 
+	font-family: Karla, Helvetica, sans-serif; 
+	color: #fff; 
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+}
+
+
+#nav_bar { 
+	display: inline-block;
+	max-width: 30rem;
+	width: 100%;
+	
+}
+
+
+#nav_bar ul li { 
+	font-family: Karla, Helvetica, sans-serif;
+	font-size: 0.9rem;  
+	display: inline-block;
+	margin: 0; 
+	border: none;
+	text-align: left;
+	padding: 0 25px; 
+}
+
+.salsa_pic {
+	max-width: 60%;
+	margin: 0 auto 1em;
+	padding-left: 2em;
+	padding-bottom: 2em;
+}
+
+.salsa_pic img {
+	max-width: 100%; 
+	margin: 0 auto;
+	display: block;
+	vertical-align: middle;
+}
+
+a.facebook {background-position: -53px 0px;}
+a.facebook:hover {background-position: 0px 0px}
+a.facebook:active {background-position: -53px 0px;}
+
+a.twit {background-position: -371px 0px}
+a.twit:hover {background-position: -318px 0px}
+a.twit:active {background-position: -371px 0px}
+
+a.plus {background-position: -106px 0px}
+a.plus:hover {background-position: -265px 0px}
+a.plus:active {background-position: -106px 0px}
+
+a.insta {background-position: -212px 0px; }
+a.insta:hover {background-position: -159px 0px}
+a.insta:active {background-position: -212px 0px}
+
+#container {
+	width: 100%;
+	overflow-y: hidden;
+	margin: 0;
+	padding-top: 90px;
+}
+
+.container-overflow {
+	background-color: #fff;
+	border: 1px solid #e6e6e6;
+	margin: 0 auto 38px;
+	position: relative;
+	width: 70%;
+	overflow: auto; 
+	opacity: .95;
+}
+
+.recipe_instructions {
+	margin: 0 auto;
+	padding: 5px 0 35px;
+}
+
+.recipe_ing {
+	width: 32.31579%;
+	float: left;
+	display: block;
+	padding-right: 1em;
+}
+
+.recipe_ing h4 {
+	font-size: 1.1em;
+	font-family: "nyt-karnak-display-130124",Georgia,"Times New Roman",serif;
+	font-weight: 400;
+	letter-spacing: 1px;
+	margin: 0;
+	padding: 17px 0 18px;
+	text-transform: uppercase;
+	-webkit-font-smoothing: antialiased;
+}
+
+.recipe_ing li {
+	display: block;
+	margin: 0 0 15px 0;
+}
+
+.quantity {
+	font-weight: 700;
+text-align: right;
+width: 37px;
+padding-right: 5px;
+font-size: 1.25em;
+line-height: 1.24em;
+font-family: "nyt-franklin",Arial,Helvetica,sans-serif;
+vertical-align: top;
+display: inline-block;
+}
+
+.ing_name {
+	width: 80%;
+	color: #4D4D4D;
+	font-size: 1.25em;
+	line-height: 1.24em;
+	font-family: "nyt-franklin",Arial,Helvetica,sans-serif;
+	font-weight: 500;
+	vertical-align: top;
+	display: inline-block;
+}
+
+
+.recipe_inst {
+	width: 62.63158%;
+	float: left;
+	display: block; 
+	margin: 0; 
+}
+
+.recipe_inst h4 {
+	font-size: 1.1em;
+	font-family: "nyt-karnak-display-130124",Georgia,"Times New Roman",serif;
+	font-weight: 400;
+	letter-spacing: 1px;
+	margin: 0;
+	padding: 17px 0 18px;
+	text-transform: uppercase;
+	-webkit-font-smoothing: antialiased;
+}
+
+.recipe_inst ol {
+	display: block;
+	counter-reset: item;
+	font-size: 1.5em;
+	line-height: 1.45em;
+	margin: 0;
+	padding: 0;
+}
+
+.recipe_inst ol li {
+	margin-bottom: 20px;
+	margin-left: 0;
+	padding-left: 35px;
+	display: block;
+	position: relative;
+}
+
+.container-wrap {
+	padding-left: 10px;
+	padding-right: 10px;
+}
