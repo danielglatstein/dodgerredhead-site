@@ -1,0 +1,41 @@
+
+
+
+@media screen and (max-width: 710px) {
+
+  #logo {
+    width: 100%;
+    text-align: center;
+  }
+
+  #nav_bar {
+    background-color: #00deb7;
+    text-align: center;
+    max-width: none;
+  }
+
+  #social {
+    float: center;
+    padding: 0;
+    height: 100%;
+    width:70%;
+  }
+
+  .col1 {
+    width: 100%;
+  }
+
+  .col2 {
+    width: 100%
+  }
+
+}
+
+@media screen and (min-width: 710px) and (max-width: 903px) {
+
+  #nav_bar {
+    width: auto;
+  }
+
+}
+
