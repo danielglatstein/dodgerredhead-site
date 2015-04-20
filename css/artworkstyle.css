@@ -125,14 +125,6 @@ header #logo {
 	display: block;
 }
 
-.position_3 .img {
-	width: 100%;
-float: left;
-display: none;
-margin: 0 0 0 0;
-background-repeat: no-repeat;
-background-size: cover;
-}
 
 .nav_bar {
 	width: 100%;
@@ -185,8 +177,10 @@ background-size: cover;
 	margin: 0 auto 30px;
 }
 
-video {
+ul video {
 	height: 285px;
+	min-height: 100%;
+	width:100%;
 }
 
 .title_video{
@@ -224,29 +218,6 @@ h4 {
 	opacity: .3
 }
 
-.position_1:hover h4 {
-	opacity:1;
-	transition: opacity .2s ease-out;
-	-moz-transition: opacity .2s ease-out;
-	-webkit-transition: opacity .2s ease-out;
-	-o-transition: opacity .2s ease-out;
-}
-
-.position_2:hover h4 {
-	opacity:1;
-	transition: opacity .2s ease-out;
-	-moz-transition: opacity .2s ease-out;
-	-webkit-transition: opacity .2s ease-out;
-	-o-transition: opacity .2s ease-out;
-}
-
-.position_3:hover h4 {
-	opacity:1;
-	transition: opacity .2s ease-out;
-	-moz-transition: opacity .2s ease-out;
-	-webkit-transition: opacity .2s ease-out;
-	-o-transition: opacity .2s ease-out;
-}
 
 
 .title h1 {
@@ -396,96 +367,6 @@ a.Zara_Aina:hover span{
 	background: transparent;
 }
 
-.position_1{
-	width: 33.33%;
-	float: left;
-	position: relative;
-	display: block;
-	cursor: pointer;
-	height: 500px;
-	background-size: 100% auto;
-	background-position: top left;
-	background-repeat: no-repeat;
-	opacity: 1
-}
-
-
-.position_2{
-	width: 33.33%;
-	position: relative;
-	display: inline-block;
-	cursor: pointer;
-	background-size: 100% auto;
-	height:500px;
-	background-position: top left;
-	background-repeat: no-repeat;
-	opacity: 1
-}
-
-
-.position_3{
-	width: 33.33%;
-	float: right;
-	position: relative;
-	display: block;
-	cursor: pointer;
-	height: 500px;
-	background-size: 100% auto;
-	background-position: top left;
-	background-repeat: no-repeat;
-	opacity: 1
-}
-
-
-.type_category:before {
-	border-bottom: 10px solid #5a54b8;
-	content: "";
-	width: 0;
-	height: 0;
-	position: relative;
-	z-index: 100;
-	display: block;
-	margin: 22px 0 0 0;
-	top: 35px;
-	left:70px;
-	padding: 50% 0 0 0;
-	border-left: 20px solid transparent;
-	border-right: 20px solid transparent;
-	border-bottom: 20px solid #3333AD;
-	opacity: 1
-}
-
-.artwork_line .holder{
-	position: absolute;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	width: 100%;
-	height: 285px;
-	padding: 0;
-	float: left;
-	display: block;
-	background-size: 100% auto;
-	background-position: 0;
-	background-repeat: no-repeat;
-}
-
-.holder img {
-	position: absolute;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	width: 100%;
-	padding: 0;
-	height: 285px;
-	float: left;
-	display: block;
-	background-size: 100% auto;
-	background-position: top left;
-	background-repeat: no-repeat;
-}
 
 .play{
 	background: url(../images/controller-play.svg) center center no-repeat;
@@ -520,5 +401,48 @@ a.plus:active {background-position: -106px 0px}
 a.insta {background-position: -212px 0px; }
 a.insta:hover {background-position: -159px 0px}
 a.insta:active {background-position: -212px 0px}
+
+.artwork ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+.artwork li {
+	max-width: 33.33%;
+	float: left;
+}
+
+.artwork img {
+	max-width: 100%;
+}
+
+.artwork .img {
+	position: relative;
+}
+
+.artwork .triangle {
+	border: 20px solid transparent;
+	border-bottom-color: #3333AD;
+	width: 0;
+	height: 0;
+	position: absolute;
+	bottom: 0;
+	left: 10%;
+}
+
+
+.artwork li:hover h4 {
+	opacity:1;
+	transition: opacity .2s ease-out;
+	-moz-transition: opacity .2s ease-out;
+	-webkit-transition: opacity .2s ease-out;
+	-o-transition: opacity .2s ease-out;
+}
+
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
 
 
